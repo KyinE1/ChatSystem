@@ -1,0 +1,17 @@
+{
+	"name": "Software Builder: Chat",
+	"version": "1.0.0",
+	"description": "Server Application.",
+	"author": "Kyin Edwards",
+	"dependencies": {
+		"ejs": "^3.1.8",
+		"express": "^4.18.2",
+		"jade": "latest",
+		"nodemon": "^2.0.20",
+		"socket.io": "^4.5.3"
+	},
+	"pkg": {
+		"scripts": "build/**/*.js",
+		"assets": ["views/**/*", "public/**"]
+	}
+}

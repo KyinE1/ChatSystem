@@ -1,0 +1,87 @@
+      * {
+        font-family: Arial, sans-serif;
+        margin-left: 2px;
+        padding: 0;
+      }
+
+      /* Ensure viewspace fits onto screen during overflow. */
+      html, body {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 3rem; 
+        background-color: rgb(20, 20, 20);
+      }
+
+      h1 {
+        justify-content: left;
+        border: 4px solid grey;
+        background-color: rgb(30, 30, 30);
+        margin-top: 0px;
+        padding: 30px;
+        color: white;
+      }
+
+      textarea {
+        justify-content: center;
+        border: 4px solid grey;
+        background-color: rgb(30, 30, 30);
+        display: flex;
+        padding: 30px;
+        height: 500px; 
+        width: 96%;
+        max-width: 2000px;
+        font-size: 20px;
+        color: white;
+      }
+
+      .button {
+        background-color: white; 
+        color: black; 
+        color: white;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-color: rgb(80, 80, 80);
+        color: white;
+      }
+
+      .container_input {
+        justify-content: left;
+        margin-top: 8px;
+      }
+
+      .container_field {
+        justify-content: left;
+        border: 4px solid darkgrey;
+        background-color: rgb(30, 30, 30);
+        padding: 30px;
+        width: 15%;
+        display: inline-block;
+      }
+
+      .container_info {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      #field_username {}
+      #field_room {}
+      #field_msg {}
+
+      #field_contact {
+        margin-top: 12px;
+      }
+
+      #btn_username {}
+      #btn_room {}
+      #btn_msg {}
+      #btn_contact {}
+      #info {}
